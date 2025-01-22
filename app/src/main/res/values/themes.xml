@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.StudentsApp" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Light Theme -->
+    <style name="Theme.StudentsApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <!-- Night Theme (optional) -->
+    <style name="Theme.StudentsApp.Night" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
 </resources>
